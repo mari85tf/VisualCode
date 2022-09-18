@@ -1,0 +1,69 @@
+ body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div { 
+    font-family: Arial, Helvetica, Sans-Serif; 
+    /* AB 24.01.2002 Netscape 4.7 retter sig ikke efter overordnet angivelse f.eks. paa body,
+    derfor de mange tag-navne. */ 
+ }
+  
+ table.toptekst { 
+    font-size: 80%; 
+	background: #b6b6a5; 
+	color: black;
+	border-width: 0; 
+   width : 100%;
+ }
+ table.ugeplan {
+	width : 100%;
+}
+ tr {
+	vertical-align : top;
+}
+   
+ pre, code { font-family: monospace; }
+ div.center { text-align: center; }
+ div.right { text-align: right; }
+ div.bundtekst { font-size: 60%; text-align: right; }
+
+.out {	text-decoration : line-through; }
+.new {	background-color : yellow; 	color: black; }
+/* til �ndringer i ugeplaner og lign. */
+.aboveSection {
+   background-color: #fdfddb; 
+   width: 100%;
+   height: 20px;
+   text-align: right;
+}
+.center {
+   font-size: 30px;
+   padding: 30px;
+   background-color: bisque;
+   margin: 5px;
+   border: solid orange 5px;
+}
+.info {
+   font-weight: bold;
+   background-color: #fdfde7;
+   border: black solid 3px;
+   width: 300px;
+   margin-left: 7px;
+   padding: 5px;
+}
+.middle{
+   background-color: #FFFFCC;
+   margin-top: 5px;
+}
+.body {
+   background-color: #FFFFCC;
+   padding: 5px;
+}
+a:link {
+   text-decoration: none;
+   
+}
+a:hover {
+   color: aqua;
+   background-color: orange;
+}
+.footer {
+   text-align: right;
+   font-size: 10px;
+}
